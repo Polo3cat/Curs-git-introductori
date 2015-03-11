@@ -1,6 +1,9 @@
 #include <stdio.h>
+void welcome() {
+printf("Hola! Benvingut al paradís!\n");
+}
 int main() {
-printf("Hola mon!\n");
-return 0;
+welcome();
+return 42;
 }
 
